@@ -70,7 +70,7 @@ h2{
 
 @media (min-width:320px), (min-width:480px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */  /* smartphones, Android phones, landscape iPhone */
   .name{
-    padding-right: 10px;
+    margin-right: 10px;
   }
   }
 
