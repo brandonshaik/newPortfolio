@@ -69,8 +69,9 @@ h2{
 
 
 @media (min-width:320px), (min-width:480px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */  /* smartphones, Android phones, landscape iPhone */
-  .name{
-    margin-right: 10px;
+  h1{
+    position: relative;
+    margin-right: 20px;
   }
   }
 
