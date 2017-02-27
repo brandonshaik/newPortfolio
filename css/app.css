@@ -39,7 +39,7 @@ h1 {
 h2{
   text-align: right;
   font-family: 'Oswald', sans-serif;
-  font-size: 50px;
+  font-size: 75px;
 }
 
 #introduction{
@@ -67,12 +67,45 @@ h2{
   padding-top: 20px;
 }
 
+.cinfo, .cinfo:hover, .cinfo:visited{
+  text-align: left;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-size: 50px;
 
-@media (min-width:320px), (min-width:480px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */  /* smartphones, Android phones, landscape iPhone */
-  h1{
-    position: relative;
-    margin-right: 20px;
   }
+
+#contact h2{
+  text-align: left;
+}
+
+@media only screen and (max-device-width: 480px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */  /* smartphones, Android phones, landscape iPhone */
+  h1{
+    font-size: 75px;
+
+  }
+
+  .labelrow{
+  position: absolute;
+  overflow: hidden;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  margin-left: 1%;
+  max-width: 80%;
+  }
+
+  #introduction, .cinfo{
+    text-align: left;
+    font-size: 25px;
+  }
+
+  .cinfo{
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-size: 75px;
+  }
+
   }
 
 
