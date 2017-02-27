@@ -100,10 +100,15 @@ h2{
     font-size: 25px;
   }
 
-  .cinfo{
+  .cinfo, .cinfo:hover, .cinfo:visited{
   font-family: 'Oswald', sans-serif;
   color: black;
-  font-size: 75px;
+  font-size: 25px;
+  max-width: 100%;
+  }
+
+  .fade{
+    opacity: 1;
   }
 
   }
